@@ -1,0 +1,105 @@
+.QuestionCard {
+  //   h2 {
+  // margin-top: 60px;
+  // font-family: "Alkatra", cursive;
+  //   }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .how-smart {
+      margin-top: 80px;
+    }
+    .start {
+      margin: 20px;
+      padding: 13px 100px;
+      border: none;
+      border-radius: 7px;
+      font-weight: 600;
+      font-size: 15px;
+      background-color: #8c8c41;
+      color: white;
+      transition: 0.2s;
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(240, 60, 60);
+        color: white;
+        transition: 0.3s;
+        transform: scale(1.1);
+      }
+    }
+    .score {
+      color: #ab5536;
+      margin-top: 10px;
+      font-family: "Alkatra", cursive;
+    }
+    .try-again {
+      margin: 15px 0;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 7px;
+      font-weight: 600;
+      font-size: 14px;
+      background-color: #ccbe3e;
+      color: rgb(231, 211, 211);
+      transition: 0.2s;
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(209, 221, 45);
+        transform: scale(1.1);
+        color: white;
+        transition: 0.2s;
+      }
+    }
+    .next {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 7px;
+      font-weight: 600;
+      font-size: 14px;
+      background-color: #8c8c41;
+      color: rgb(231, 211, 211);
+      transition: 0.2s;
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(240, 60, 60);
+        color: white;
+        transition: 0.2s;
+      }
+    }
+    .spinner {
+      margin-top: 100px;
+    }
+    .questions {
+      width: 70%;
+      h4 {
+        text-align: center;
+        margin: 10px 0;
+      }
+      h3 {
+        margin-bottom: 10px;
+      }
+      ul {
+        li {
+          margin-top: 2px;
+          border-radius: 4px;
+          padding: 2px;
+          list-style: none;
+          input {
+            margin: 0 7px 0 3px;
+            border: 1px black solid;
+          }
+        }
+        .right {
+          background-color: rgb(31, 184, 64);
+        }
+        .wrong {
+          background-color: rgb(216, 38, 38);
+        }
+      }
+    }
+  }
+}
+
+
