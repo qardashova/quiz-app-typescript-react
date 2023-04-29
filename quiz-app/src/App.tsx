@@ -3,9 +3,6 @@ import QuestionCard from "./components/QuestionCard";
 import "./styling/App.scss";
 
 const App = () => {
-  const startTrivia = async () => {};
-  const checkAnwer = async (e: React.MouseEvent<HTMLButtonElement>) => {};
-  const nextQuestion = () => {};
 
   return (
     <div className="App">

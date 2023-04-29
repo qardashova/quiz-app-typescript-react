@@ -97,15 +97,15 @@ const QuestionCard = () => {
     setCorrectAnswer("");
   }
 
-  console.log(yourAnswer);
-  console.log(correctAnswer);
+  // console.log(yourAnswer);
+  // console.log(correctAnswer);
   // console.log(indexCorrectAnswer);
 
   // console.log(loading);
-  console.log(quizesData);
-  console.log(currentQuestionNumber, "currentQUestionNumber");
-  console.log(allQuestionsNumber, "allQuestions");
-  console.log(score, "score");
+  // console.log(quizesData);
+  // console.log(currentQuestionNumber, "currentQUestionNumber");
+  // console.log(allQuestionsNumber, "allQuestions");
+  // console.log(score, "score");
 
   // console.log(loading);
   // console.log(quizesData.results);
